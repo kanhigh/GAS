@@ -1,6 +1,6 @@
-//まとめる先のカレンダーのIDを設定
+//to calendar id
 var outCal_id = "kanhigh1110@gmail.com";
-//まとめたいカレンダーのIDを設定
+//from calendar id
 var inCal_ids = [
 　　　　"hiroshi.yamamoto@bitkey.jp"];
 var prefix = "BKP："
