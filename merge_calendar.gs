@@ -3,6 +3,7 @@ var outCal_id = "kanhigh1110@gmail.com";
 //from calendar id
 var inCal_ids = [
 　　　　"hiroshi.yamamoto@bitkey.jp"];
+//title prefix
 var prefix = "BKP："
 function main(){
 
@@ -34,7 +35,7 @@ function mergeCal(outCal, inCal_id, date_start, date_end) {
 	    {description:new_Future_Ev[i].getDescription(),
 	    　　location:new_Future_Ev[i].getLocation()});
       }　else　{
-	    outCal.createEvent("BTK" + new_Future_Ev[i].getTitle(),
+	    outCal.createEvent(prefix + new_Future_Ev[i].getTitle(),
 	    new_Future_Ev[i].getStartTime(),
 	    new_Future_Ev[i].getEndTime(),
 	    {description:new_Future_Ev[i].getDescription(),
